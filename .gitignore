@@ -6,6 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea
+
+
 # Distribution / packaging
 .Python
 build/
@@ -91,12 +102,8 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +134,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+images/repo_image.jpg
+images/promo_image.jpg

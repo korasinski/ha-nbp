@@ -1,0 +1,7 @@
+{
+    "name": "NBP - Narodowy Bank Polski",
+    "homeassistant": "2021.2.0",
+    "iot_class": "Cloud Polling",
+    "domains": ["sensor"],
+    "country": "PL"
+}

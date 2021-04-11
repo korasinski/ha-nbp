@@ -1,0 +1,8 @@
+{
+    "domain": "nbp",
+    "name": "NBP - Narodowy Bank Polski",
+    "version": "0.0.1",
+    "codeowners": ["@korasinski"],
+    "documentation": "https://github.com/korasinski/ha-nbp",
+    "requirements": []
+}
