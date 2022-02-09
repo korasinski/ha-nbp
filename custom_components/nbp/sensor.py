@@ -137,7 +137,7 @@ class NBPSensor(Entity):
         return self._ask
 
     @property
-    def device_state_attributes(self):
+    def extra_state_attributes(self):
         """Return the state attributes of this device."""
         return {
             "bid": self._bid,
